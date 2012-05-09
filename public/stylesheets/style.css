@@ -1,0 +1,38 @@
+body {
+  
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+  background-color: black;
+  
+  background-image: url("/img/black_bg.png");
+  background-repeat: repeat;
+  
+}
+
+p{
+  font-size: 1.2em;
+}
+
+hr{
+  color: black;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.centerBack{
+  background-color: linen;
+}
+
+.b_s{
+  background-image: url("/img/boring_seminar.gif");
+  height: 250px;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+}
+.glow{
+
+        text-shadow: 1px 1px 6px #ffffff;
+        filter: dropshadow(color=#ffffff, offx=1, offy=1);
+           
+ }
+

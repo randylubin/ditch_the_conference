@@ -1,0 +1,62 @@
+!!!
+html
+	head
+		title= title
+		link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		script(type='text/javascript', src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js')
+		script(type='text/javascript', src='/js/bootstrap.min.js')
+		script(type='text/javascript', src='/js/popover.js')
+
+	body
+		.container
+			.row
+				.span12.centerBack
+
+					.hero-unit.centerBack(style="padding-bottom:10px;")
+						h1 Ditch The Conference
+						h2 Send a surrogate so you can have fun
+					.row
+						.span5.b_s.offset1
+						.span5
+							h2 Play Hooky on Company Dime
+							p Your boss sends you to awesome cities, you should be able to enjoy them.
+
+							p Next conference, send a surrogate in your place.  He or she will wear your name tag, network like crazy, and collect a fat stack of business cards.
+
+							p Whether you’re at the Hyatt in Houston or the Marriott in Memphis, you want to escape the convention center.  We can help!
+
+							#go.btn.btn-large.btn-success(style="margin-top:20px;", rel="popover", data-content="Las Vegas - Summer 2012") Book Now
+					hr(style="border: 1px solid grey; margin-bottom: 30px;")
+					.row
+						.span2.offset1
+							img(src="/img/suitman.gif")
+						.span3(style="margin-left:30px;")
+							h2 Surrogate will:
+							ul
+								li Wear your nametag
+								li Take notes of speakers
+								li Tweet from your account
+								li Network for you
+								li Make witty comments
+						.span2
+							img(src="/img/field.gif")
+						.span3
+							h2 While you:
+							ul	
+								li Frolick through nature
+								li Tour the city
+								li Sleep off your hangover
+					.row
+						br
+						hr(style="border: 1px solid grey; margin-bottom: 30px;")
+					.row
+						.span10.offset2
+
+							
+							h1(style="margin-left:55px;") Coming soon to major US cities
+							br
+							br
+script
+	$('#go').popover({title:'Coming Soon'})
+
